@@ -4,10 +4,8 @@ class Car
   end
 end
 
-class Bus < Car
+class Taxi < Car
 end
 
-bus = Bus.new
-bus.run(5)
-
-puts Bus.superclass
+taxi = Taxi.new
+taxi.run(8)
